@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Thika Eateries</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-utensils"></i>
+            Thika Eateries
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="eateries.html">Eateries</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="eateries.html" class="nav-button">
+                Explore Eateries
+            </a>
+
+        </nav>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- PAGE HERO -->
+
+    <section class="page-hero menu-hero">
+
+        <div>
+
+            <h1>Explore Our Menu</h1>
+
+            <p>
+                Discover delicious meals, drinks, desserts and
+                food experiences from around Thika.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU FILTER -->
+
+    <section class="menu-section">
+
+        <div class="section-title menu-heading">
+
+            <span>FOOD & DRINKS</span>
+
+            <h2>What Are You Craving?</h2>
+
+            <p>
+                Browse our sample menu and discover something
+                delicious for every occasion.
+            </p>
+
+        </div>
+
+
+        <div class="menu-filters">
+
+
+    <button type="button" class="menu-filter active" data-category="All">
+        All
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Breakfast">
+        Breakfast
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Lunch">
+        Lunch
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Dinner">
+        Dinner
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Fast Food">
+        Fast Food
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Drinks">
+        Drinks
+    </button>
+
+    <button type="button" class="menu-filter" data-category="Desserts">
+        Desserts
+    </button>
+
+</div>
+      
+
+
+        <!-- MENU ITEMS -->
+
+        <div class="menu-grid" id="menuGrid">
+
+            <!-- JavaScript generates menu cards -->
+
+        </div>
+
+
+        <div class="menu-no-results" id="menuNoResults">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <h3>No menu items found</h3>
+
+            <p>
+                Try selecting another food category.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <div class="cta-content">
+
+            <h2>Found Something You Like?</h2>
+
+            <p>
+                Explore local eateries around Thika and discover
+                your next favorite meal.
+            </p>
+
+            <a href="eateries.html" class="cta-button">
+
+                Find an Eatery
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+
+                <h3>
+                    <i class="fa-solid fa-utensils"></i>
+                    Thika Eateries
+                </h3>
+
+                <p>
+                    Discover restaurants, cafés, food spots and
+                    delicious experiences around Thika, Kenya.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="eateries.html">Eateries</a>
+                <a href="menu.html">Menu</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Services</h4>
+
+                <a href="eateries.html">Restaurant Discovery</a>
+                <a href="menu.html">Menu Discovery</a>
+                <a href="contact.html">Restaurant Promotion</a>
+                <a href="gallery.html">Food Experiences</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Contact</h4>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Thika, Kenya
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    wawerugeoffrey505@gmail.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    0795169251
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Thika Eateries. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+ 
+
+</body>
+
+</html>
